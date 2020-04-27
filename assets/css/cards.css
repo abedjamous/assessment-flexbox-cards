@@ -3,6 +3,11 @@
   border: 1px solid #CAD0D2;
   border-radius: 4px;
   overflow: hidden;
+  
+  display: flex; 
+  
+  
+  
 }
 
 .card {
@@ -13,11 +18,41 @@
   border-radius: 0;
   border-left: 1px solid #D7DBDD;
   overflow: hidden;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis:50px; 
+  display: flex;
+  
+  
+  
+  
+  
+  
+  
+  
+  
 }
 
 .cardDescription {
   /* display, flex-direction, align-items, flex-grow */
   padding: 15px 0;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+
+  
+  
 }
 
 html {
@@ -49,4 +84,5 @@ html {
   padding: 5px 15px;
   border-top: 1px solid #D7DBDD;
   background-color: #EEF3F5;
+  
 }
